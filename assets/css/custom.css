@@ -111,3 +111,33 @@ table.fs-table.decomp.big td { padding: 0.2em 0.45em; }
   border: 1px solid #ccc;
   border-radius: 4px;
 }
+
+/* ===== 单字拆分示例表（03-decomposition.md，13 列）紧凑化 =====
+   table-layout:fixed 锁列宽、占满内容区，防横向溢出（移动端仍由 .table-wrap 兜底）。
+   :not(.big) 严格隔离 6775 字大表（decomposition-table.md）。字根列未指定宽度，
+   由 fixed 布局自动均分剩余空间，故只需显式约束"单字列"与"空分隔列"。 */
+table.fs-table.decomp:not(.big) {
+  table-layout: fixed;
+  width: 100%;
+}
+table.fs-table.decomp:not(.big) th,
+table.fs-table.decomp:not(.big) td {
+  padding: 0.3em 0.35em;        /* 原 0.4em 0.6em，收紧 */
+  text-align: center;           /* 字根列居中（对应 LaTeX c 列）*/
+  vertical-align: middle;
+  word-break: keep-all;         /* CJK 字符不被劈开 */
+  overflow-wrap: anywhere;      /* 编码超长时列内换行，不撑宽 */
+}
+/* "单字"列（第 1、8 列）：加宽 + 左对齐（对应 LaTeX l 列），允许"字+码"换行 */
+table.fs-table.decomp:not(.big) :is(th, td):nth-child(1),
+table.fs-table.decomp:not(.big) :is(th, td):nth-child(8) {
+  width: 15%;
+  text-align: left;
+  white-space: normal;
+}
+/* 空分隔列（第 7 列）：极窄 + 去边框，模拟 LaTeX \cline 断开 */
+table.fs-table.decomp:not(.big) :is(th, td):nth-child(7) {
+  width: 2.5%;
+  border: 0;
+  padding: 0;
+}
