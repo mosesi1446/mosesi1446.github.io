@@ -1,0 +1,52 @@
+/* ===== 风水形音输入法 · 自定义样式 ===== */
+
+/* --- 自创字符字体（PUA 区）---
+   教程中 76 个自创 PUA 字符全部存在于 EUDC.ttf（用户自有版权）。
+   unicode-range 让浏览器仅对 PUA 区(U+E000–F8FF) 调用此字体，
+   普通汉字走系统字体回退，互不影响。
+   Markdown 正文直接写 PUA 字符即可，无需 <span> 包裹。 */
+@font-face {
+  font-family: 'FengshuiEUDC';
+  src: url('../fonts/EUDC.ttf') format('truetype');
+  font-display: swap;
+  unicode-range: U+E000-F8FF;
+}
+
+/* 正文 CJK 字体回退链：普通汉字用系统宋体/思源，PUA 字符用 EUDC */
+body {
+  font-family: 'Noto Serif CJK SC', 'Source Han Serif SC', 'Songti SC',
+               'SimSun', serif, 'FengshuiEUDC', sans-serif;
+}
+
+/* 配色变量（取自 LaTeX 文档类 fengshui.cls）*/
+:root {
+  --fengshui-blue: #003399; /* 宝钢蓝，主色 */
+  --fengshui-gray: #808080; /* 宝钢灰 */
+  --fengshui-red:  #dc143c; /* 宝钢红，强调 */
+}
+
+/* 强调色（如 Slogan 中的"风""水"）*/
+.fs-red { color: var(--fengshui-red); }
+
+/* 复杂大表横向滚动，适配移动端 */
+.table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* 字根表统一基础样式 */
+table.fs-table {
+  border-collapse: collapse;
+  margin: 1em 0;
+  font-size: 0.95em;
+}
+table.fs-table th,
+table.fs-table td {
+  border: 1px solid #ccc;
+  padding: 0.4em 0.6em;
+  vertical-align: top;
+}
+table.fs-table th {
+  background: #f0f4fa;
+  color: var(--fengshui-blue);
+}

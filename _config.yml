@@ -1,0 +1,34 @@
+# 风水形音输入法 · 站点配置
+title: 风水形音输入法
+description: Geomancy Form-Phonetic Input Method —— 迅疾如风、流畅若水
+remote_theme: pmarsceill/just-the-docs
+url: "https://fs-input.github.io"
+lang: zh-CN
+
+# Just the Docs 主题
+search_enabled: true
+heading_anchors: true
+back_to_top: true
+back_to_top_text: 返回顶部
+
+# 右上角辅助链接
+aux_links:
+  "GitHub": "https://github.com/fs-input/fs-input.github.io"
+  "Rime 下载": "https://rime.im/download/"
+
+# 页脚
+footer_content: 'Copyright &copy; 2026 詹小虫 · 风水形音输入法 V1.3.1 · <a href="https://github.com/fs-input/fs-input.github.io">GitHub</a>'
+
+# Markdown 解析（允许在 Markdown 中嵌 HTML 表格）
+kramdown:
+  input: GFM
+  parse_block_html: true
+
+# 不发布到站点的文件
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - tasks/
