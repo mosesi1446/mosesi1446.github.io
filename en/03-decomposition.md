@@ -1,18 +1,20 @@
 ---
-title: 单字拆分
+title: Character Decomposition
 nav_order: 4
-description: 风水输入法 174 个单字拆分示例
-permalink: /zh/03-decomposition/
-parent: 首页
+description: 174 character decomposition examples for the Fengshui Input Method
+permalink: /en/03-decomposition/
+parent: English
 ---
 
-# 单字拆分
+{% include lang_switch.html %}
+
+# Character Decomposition
 {: .fs-8 }
 
-以下是 174 个单字拆分示例，涵盖了所有字根的用例。熟悉这些示例，举一反三便可拆分所有汉字。不足四码者，以该字拼音首字母作为补码（音补）；多音字具有不同的音补码，编码时已考虑。
+Below are 174 character decomposition examples, covering use cases of all radicals. Once you are familiar with these examples, you can decompose any character by analogy. Characters with fewer than four codes take the first letter of the character's Pinyin as the supplement (phonetic supplement); polyphones have different phonetic supplements, already accounted for in the coding.
 
 <div class="table-wrap"><table class="fs-table decomp">
-<thead><tr><th>单字</th><th>一码</th><th>二码</th><th>三码</th><th>末码</th><th>音补</th><th></th><th>单字</th><th>一码</th><th>二码</th><th>三码</th><th>末码</th><th>音补</th></tr></thead>
+<thead><tr><th>Character</th><th>1st</th><th>2nd</th><th>3rd</th><th>Final</th><th>Phon.</th><th></th><th>Character</th><th>1st</th><th>2nd</th><th>3rd</th><th>Final</th><th>Phon.</th></tr></thead>
 <tbody>
 <tr><td><span class="kw">钤</span> <code>qiwj</code></td><td>钅</td><td>人</td><td>丶</td><td></td><td>l</td><td></td><td><span class="kw">流</span> <code>vwlq</code></td><td>氵</td><td>亠</td><td>厶</td><td></td><td>l</td></tr>
 <tr><td><span class="kw">既</span> <code>flqj</code></td><td>日</td><td>厶</td><td>旡</td><td></td><td>j</td><td></td><td><span class="kw">捕</span> <code>jqb</code></td><td>扌</td><td>甫</td><td></td><td></td><td>b</td></tr>

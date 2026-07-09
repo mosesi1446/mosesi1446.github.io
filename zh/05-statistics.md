@@ -3,6 +3,7 @@ title: 码率统计与分析
 nav_order: 6
 description: 风水输入法码率、重码率、击键效率统计分析
 permalink: /zh/05-statistics/
+parent: 首页
 ---
 
 # 码率统计与分析

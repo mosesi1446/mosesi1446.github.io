@@ -3,6 +3,7 @@ title: 常见问答
 nav_order: 8
 description: 风水输入法常见问答 —— 与拼音、五笔对比，适用人群
 permalink: /zh/appendix-b-qa/
+parent: 首页
 ---
 
 # 常见问答

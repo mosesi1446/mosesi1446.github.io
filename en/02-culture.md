@@ -1,14 +1,16 @@
 ---
-title: 字根表文化解读
+title: Cultural Reading of the Radical Table
 nav_order: 3
-description: 风水字根表的米人布局、阴阳五行、字母象形等文化解读
-permalink: /zh/02-culture/
-parent: 首页
+description: Cultural reading of the Fengshui radical table — the 米/人 layout, Yin-Yang and the Five Elements, alphabetic pictography
+permalink: /en/02-culture/
+parent: English
 ---
 
-## “米”、“人”布局解读
+{% include lang_switch.html %}
 
-左手键区以“米”字形为基本结构，右手键区以“人”字形为基本结构。“米”和“人”都是天地所孕育的精华。民以食为天，人育米，米育人，左右搭配，相辅相成。认真阅读以下文字，可帮助学习者快速熟记大部分词根，然后马上就可以上手打字。
+## The “米” and “人” Layout
+
+The left-hand key area takes the “米” (rice) glyph as its basic structure, and the right-hand key area takes the “人” (person) glyph. Both 米 and 人 are essences nurtured by heaven and earth. The people depend on food; people grow rice, and rice sustains people — left and right complement each other. Reading the text below carefully will help learners quickly memorize most radicals and start typing right away.
 
 <div class="table-wrap"><table class="fs-table kbd">
   <tr>
@@ -49,46 +51,46 @@ parent: 首页
   </tr>
 </table></div>
 
-### 左手半边:
+### Left-Hand Side
 
-- S键、D键和F键处于“米”字形的横线区，
-  - S键为“一”，
-  - D键为“二”，
-  - F键为“三”；
-- E键、D键和C键处于“米”字形的竖线区，
-  - E键为“丨”，
-  - D键为“〢”，
-  - C键为“川”；
-- R键、D键和X键处于“米”字形的撇线区，
-  - R键为“丿”，
-  - D键为“巜”，
-  - X键为“彡巛”；
-- W键、D键和V键处于“米”字形的捺线区，
-  - W键为“丶”，
-  - D键为“冫丷”，
-  - V键为“氵灬”。
+- S, D, and F sit on the horizontal stroke zone of the “米” glyph:
+  - S is “一”,
+  - D is “二”,
+  - F is “三”;
+- E, D, and C sit on the vertical stroke zone:
+  - E is “丨”,
+  - D is “〢”,
+  - C is “川”;
+- R, D, and X sit on the left-falling stroke zone:
+  - R is “丿”,
+  - D is “巜”,
+  - X is “彡巛”;
+- W, D, and V sit on the right-falling stroke zone:
+  - W is “丶”,
+  - D is “冫丷”,
+  - V is “氵灬”.
 
-### 右手半边
+### Right-Hand Side
 
-- I键以“人”为键名；
-- J键处于“人”字形的撇线区
-  - 笔画以撇为主，
-  - 以及向左包的“”结构笔画；
-- L键处于“人”字形的捺线区
-  - 笔画以捺为主，
-  - 以及向右包的“乚”结构笔画；
-	（笔画“”和“乚”与英文字母“J”和“L”相对应）
-- 中间K键布置“口”和“彳”，
-	（J、I、K、L四个键正好形成中间对称结构）
-- I在英文中表示“我”的意思，将“我”字拆成“手”“戈”，分别置于左右两边的J键和L键，所以J键键名为“手”，L键键名为“戈”。
-- I键左右两边分别为U键“门”和O键“鱼”，表示“鲤鱼跃龙门”，象征飞黄腾达，步步高升。
+- The I key is named after “人”;
+- The J key sits in the left-falling stroke zone of the “人” glyph
+  - its strokes are mainly the left-falling stroke (丿),
+  - plus the leftward-wrapping structural stroke “”;
+- The L key sits in the right-falling stroke zone of the “人” glyph
+  - its strokes are mainly the right-falling stroke,
+  - plus the rightward-wrapping structural stroke “乚”;
+	(the strokes “” and “乚” correspond to the English letters “J” and “L”)
+- The middle K key holds “口” and “彳”;
+	(the four keys J, I, K, L form a perfectly symmetrical structure in the middle)
+- In English, “I” means “me”; splitting “我” (me) into “手” (hand) and “戈” (halberd) and placing them on the J and L keys gives J the name “手” and L the name “戈”.
+- Flanking the I key are the U key “门” (gate) and the O key “鱼” (fish), symbolizing “the carp leaping over the dragon gate” — a sign of soaring success and rising step by step.
 
 {: .note }
-“米”字形9个键位和“人”字形3个键位在基本结构上又各自演化出了丰富的字根。
+The 9 keys of the “米” glyph and the 3 keys of the “人” glyph each further evolve a rich set of radicals on top of their basic structure.
 
-## “阴阳五行”解读
+## Yin-Yang and the Five Elements
 
-字根表同时结合了汉字的“阴阳五行”理论，“阴阳五行”这七大要素是汉字的哲学内核。这些要素齐备了，周转往复，相生相克，形成了蔚为大观的汉字文化体系。
+The radical table also incorporates the theory of “Yin-Yang and the Five Elements.” These seven elements are the philosophical core of the Chinese characters. When all are present, they circulate and repeat, generating and overcoming one another, forming the magnificent cultural system of the Chinese characters.
 
 <div class="table-wrap"><table class="fs-table kbd">
   <tr>
@@ -131,24 +133,28 @@ parent: 首页
 
 {: .note }
 
-	水曰润下，火曰炎上，木曰曲直，金曰从革，土爰稼穑。
+	*An English reading of the Song of the Five Elements:*
+Water moistens downward, fire blazes upward, wood bends and straightens, metal yields and transforms, earth is for sowing and reaping. Wood governs growth, fire governs ascent, earth governs bearing, metal governs reaping-in, water governs storage. The liver belongs to wood, the heart to fire, the spleen to earth, the lungs to metal, the kidneys to water. Sour enters wood, bitter enters fire, sweet enters earth, pungent enters metal, salty enters water. The east is wood, the south is fire, the center is earth, the west is metal, the north is water. Wood is green, fire is red, earth is yellow, metal is white, water is black.
+
+*Original Chinese:*
+水曰润下，火曰炎上，木曰曲直，金曰从革，土爰稼穑。
 	木主生发，火主升腾，土主承载，金主肃敛，水主归藏。
 	肝属木，心属火，脾属土，肺属金，肾属水。
 	酸入木，苦入火，甘入土，辛入金，咸入水。
 	东方木，南方火，中央土，西方金，北方水。
 	木曰青，火曰赤，土曰黄，金曰白，水曰黑。
 
-- F键的“日”代表阳
-- N键的“月”代表阴（阳上阴下，遥相辉应）
-- Q键的“金”
-- M键的“木”
-- V键的“水”
-- Y键的“火”
-- G键的“土”
+- The “日” (sun) on the F key represents Yang;
+- The “月” (moon) on the N key represents Yin (yang above, yin below, echoing each other);
+- The “金” (metal) on the Q key;
+- The “木” (wood) on the M key;
+- The “水” (water) on the V key;
+- The “火” (fire) on the Y key;
+- The “土” (earth) on the G key.
 
-## 字母象形解读
+## Alphabetic Pictography
 
-按英文字母象形结构设置字根，如表所示。
+Some radicals are set according to the pictographic shapes of English letters, as shown in the table.
 
 <div class="table-wrap"><table class="fs-table kbd">
   <tr>
@@ -189,26 +195,26 @@ parent: 首页
   </tr>
 </table></div>
 
-- H键取“艹”、“目”的象形结构，
-- B键取“耳”的象形结构，（表示耳聪目明）
-- Z键取“之”的象形结构，
-- X键取“㐅”的象形结构，
-- T键取“厂”的象形结构，
-- U键取“门”的象形结构，
-- E键取“彐”的象形结构，
-- F键取“日”的象形结构，
-- N键取“月”的象形结构，
-- J键取“丁”的象形结构，
-- L键取“乙”的象形结构。
+- H takes the pictographic shapes of “艹” and “目”;
+- B takes the pictographic shape of “耳” (keen ears and sharp eyes);
+- Z takes the pictographic shape of “之”;
+- X takes the pictographic shape of “㐅”;
+- T takes the pictographic shape of “厂”;
+- U takes the pictographic shape of “门”;
+- E takes the pictographic shape of “彐”;
+- F takes the pictographic shape of “日”;
+- N takes the pictographic shape of “月”;
+- J takes the pictographic shape of “丁”;
+- L takes the pictographic shape of “乙”.
 
-## 方位朝向解读
+## Directional Orientation
 
-开口框的四种方位朝向如表所示。
+The four directional orientations of the open-frame radical are shown in the table.
 
-- “凵”朝上位于E键，
-- “冂”朝下位于C键，
-- “”朝左位于S键，
-- “匚”朝右位于F键。
+- “凵” opens upward, on the E key;
+- “冂” opens downward, on the C key;
+- “” opens left, on the S key;
+- “匚” opens right, on the F key.
 
 <div class="table-wrap"><table class="fs-table kbd">
   <tr>
@@ -249,9 +255,9 @@ parent: 首页
   </tr>
 </table></div>
 
-## 数字字根分布
+## Distribution of Numeral Radicals
 
-数字的字根分布如表所示。
+The distribution of the numeral radicals is shown in the table.
 
 <div class="table-wrap"><table class="fs-table kbd">
   <tr>
@@ -292,13 +298,13 @@ parent: 首页
   </tr>
 </table></div>
 
-注：四=囗（C）+儿（Q），百=丆（N）+日（F）
+Note: 四 (four) = 囗 (C) + 儿 (Q); 百 (hundred) = 丆 (N) + 日 (F).
 
-## 字根主键名与副键名
+## Primary and Secondary Key Names
 
-每个键定义了一个“主键名”和一个“副键名”，因为每个键位的字根与键名相似，所以只要记住了主键名和副键名，基本上就记住了全部字根。
+Each key is given a “primary name” and a “secondary name.” Because the radicals on each key resemble the key's names, memorizing the primary and secondary names essentially memorizes all the radicals.
 
-### 字根主键名
+### Primary Key Names
 
 <div class="table-wrap"><table class="fs-table kbd">
   <tr>
@@ -339,7 +345,7 @@ parent: 首页
   </tr>
 </table></div>
 
-### 字根副键名
+### Secondary Key Names
 
 <div class="table-wrap"><table class="fs-table kbd">
   <tr>
@@ -380,7 +386,9 @@ parent: 首页
   </tr>
 </table></div>
 
-## 主、副键名记忆口诀
+## Mnemonics for the Key Names
+
+*Each mnemonic below links the primary (and secondary) name of a key into a vivid image; the red characters are the key names. (Chinese original kept for its rhythm and cultural flavor.)*
 
 - Q：<strong><span class="fs-red">金</span></strong>乌（<strong><span class="fs-red">鸟</span></strong>）高鸣
 - W：他<strong><span class="fs-red">方</span></strong>来<strong><span class="fs-red">言</span></strong>
@@ -412,7 +420,7 @@ parent: 首页
 - ，
 - 。
 
-## 动物字根
+## Animal Radicals
 
 <div class="table-wrap"><table class="fs-table kbd">
   <tr>
@@ -453,7 +461,7 @@ parent: 首页
   </tr>
 </table></div>
 
-## 自然要素字根
+## Natural-Element Radicals
 
 <div class="table-wrap"><table class="fs-table kbd">
   <tr>
@@ -494,7 +502,7 @@ parent: 首页
   </tr>
 </table></div>
 
-## 人体字根
+## Body Radicals
 
 <div class="table-wrap"><table class="fs-table kbd">
   <tr>
@@ -535,10 +543,18 @@ parent: 首页
   </tr>
 </table></div>
 
-## 字根总结
+## Summary
+
+*English paraphrase of the Feng-Shui landscape:*
+
+**Left-hand area** — mountains to the north, a great river to the south watering fertile fields; strange rocks and fine melodies, fine wine and lovely ladies to the west; fertile soil and men of letters to the east under a rising sun; cattle, horses, and birds all around, with a good bow at hand; in the center, an abundant harvest of the five grains.
+
+**Right-hand area** — swords and halberds guard the flanks, a well at the center, a bright moon hanging heavy, a loyal dog watching the courtyard, a thriving family, summer insects humming, melons and fruits fragrant, ample food and clothing, a flourishing culture, and fish leaping over the dragon gate.
+
+*Original Chinese:*
 
 左手区风水格局：北靠大<strong><span class="fs-red">山</span></strong>；南临大<strong><span class="fs-red">川</span></strong>，<strong><span class="fs-red">水</span></strong>泽沃<strong><span class="fs-red">田</span></strong>；<strong><span class="fs-red">西</span></strong>有奇<strong><span class="fs-red">石</span></strong>良<strong><span class="fs-red">曲</span></strong>、美酒（<strong><span class="fs-red">酉</span></strong>）佳人（<strong><span class="fs-red">女</span></strong>）；东有沃<strong><span class="fs-red">土千</span></strong>顷，<strong><span class="fs-red">才</span></strong>人<strong><span class="fs-red">士</span></strong>子，旭<strong><span class="fs-red">日</span></strong>东升；<strong><span class="fs-red">牛马鸟</span></strong>兽（<strong><span class="fs-red">豸、豕</span></strong>）环绕，良<strong><span class="fs-red">弓</span></strong>在侧；中间五谷（<strong><span class="fs-red">米</span></strong>）<strong><span class="fs-red">丰</span></strong>登。
 
 右手区风水格局：左右<strong><span class="fs-red">刀戈</span></strong>护卫，水<strong><span class="fs-red">井</span></strong>居中，明<strong><span class="fs-red">月</span></strong>沉沉，忠<strong><span class="fs-red">犬</span></strong>护院，<strong><span class="fs-red">人丁</span></strong>兴旺，夏<strong><span class="fs-red">虫</span></strong>低吟，<strong><span class="fs-red">瓜</span></strong>果飘香，丰<strong><span class="fs-red">衣</span></strong>足食（<strong><span class="fs-red">饣</span></strong>），<strong><span class="fs-red">文</span></strong>教兴盛，<strong><span class="fs-red">鱼</span></strong>跃龙<strong><span class="fs-red">门</span></strong>。
 
-在如此绝妙的风水庇佑下，长期使用该输入法的朋友，有如护身符随身，必时来运转，键字如神，飞黄腾达，官运亨通，福及天下。
+Under the protection of such marvelous Feng Shui, those who use this input method long-term carry it like a talisman: fortune will turn their way, their fingers will fly across the keys as if by magic, they will soar to success, their careers will prosper, and blessings will reach all under heaven.

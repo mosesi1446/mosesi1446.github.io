@@ -4,7 +4,11 @@ layout: default
 nav_order: 1
 description: 风水形音输入法 —— 迅疾如风、流畅若水
 permalink: /
+has_children: true
+has_toc: false
 ---
+
+{% include lang_switch.html %}
 
 # 风水形音输入法
 {: .fs-9 }

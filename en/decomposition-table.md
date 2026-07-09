@@ -1,21 +1,23 @@
 ---
-title: 单字拆解表
+title: Character Decomposition Table
 nav_order: 9
-description: 风水输入法单字拆解查询表
-permalink: /zh/decomposition-table/
-parent: 首页
+description: Character decomposition lookup table for the Fengshui Input Method
+permalink: /en/decomposition-table/
+parent: English
 ---
 
-# 单字拆解表
+{% include lang_switch.html %}
+
+# Character Decomposition Table
 {: .fs-8 }
 
-本表收录 6775 个汉字的字根拆解（一码～末码，最多四码；不足四码者以音补补足）。在上方输入框输入**汉字或字根**即可实时筛选。
+This table contains the radical decomposition of 6,775 characters (1st through final code, at most four codes; those with fewer than four are padded with the phonetic supplement). Type a **character or radical** in the box above to filter in real time.
 
-> **提示**：字根中的自创符号由内嵌的 EUDC.ttf 字体渲染。
+> **Tip**: the custom symbols among the radicals are rendered by the embedded EUDC.ttf font.
 
-<input type="text" id="dt-filter" class="dt-filter" placeholder="输入汉字或字根筛选（如 的、氵、宀）…" onkeyup="dtFilter()">
+<input type="text" id="dt-filter" class="dt-filter" placeholder="Type a character or radical to filter (e.g. 的, 氵, 宀)…" onkeyup="dtFilter()">
 <div class="table-wrap"><table class="fs-table decomp big" id="dt-table">
-<thead><tr><th>#</th><th>单字</th><th>一码</th><th>二码</th><th>三码</th><th>末码</th></tr></thead>
+<thead><tr><th>#</th><th>Character</th><th>1st</th><th>2nd</th><th>3rd</th><th>Final</th></tr></thead>
 <tbody>
 <tr><td>1</td><td class="kw">的</td><td>白</td><td>勹</td><td>丶</td><td></td></tr>
 <tr><td>2</td><td class="kw">一</td><td>一</td><td></td><td></td><td></td></tr>

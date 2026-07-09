@@ -1,47 +1,49 @@
 ---
-title: 输入规则
+title: Input Rules
 nav_order: 5
-description: 风水输入法输入规则 —— 单字、词组的编码方法
-permalink: /zh/04-rules/
-parent: 首页
+description: Input rules of the Fengshui Input Method — coding single characters and words
+permalink: /en/04-rules/
+parent: English
 ---
 
-# 输入规则
+{% include lang_switch.html %}
+
+# Input Rules
 {: .fs-8 }
 
-## 单字
+## Single Characters
 
-### 一简字
+### One-Key Characters
 
-一简字选用字频最高的汉字，熟记一简字可提高输入速度。
+One-key characters use the highest-frequency characters. Memorizing them speeds up input.
 
-由于右手小指放置于"；"键位，平时处于空置状态，两手的拇指平时也处于空置状态，比较浪费，因此空格键、分号键（；）和引号键（'）分别设置为三级候选键。三级一简字均无需记忆，输入法会自动提示。78 个三级一简字均为使用频率最高的单字，长期使用后形成自然记忆，可大大加快输入速度。
+Since the right little finger rests on the ";" key, which is normally idle, and both thumbs are also normally idle — a waste — the Space bar, the semicolon key (；), and the apostrophe key (') are set as the three candidate-commit keys. The three tiers of one-key characters require no memorization: the input method prompts them automatically. All 78 tier-3 one-key characters are the most frequently used single characters; with long-term use they form natural memory and greatly speed up input.
 
 <div class="table-wrap"><table class="fs-table kbd yijian">
 <tr><td><span class="k">Q</span></td><td><span class="k">W</span></td><td><span class="k">E</span></td><td><span class="k">R</span></td><td><span class="k">T</span></td><td><span class="k">Y</span></td><td><span class="k">U</span></td><td><span class="k">I</span></td><td><span class="k">O</span></td><td><span class="k">P</span></td><td></td></tr>
 <tr><td>无</td><td>就</td><td>上</td><td>和</td><td>应</td><td>新</td><td>问</td><td>他</td><td>这</td><td>对</td><td></td></tr>
 <tr><td><span class="k">A</span></td><td><span class="k">S</span></td><td><span class="k">D</span></td><td><span class="k">F</span></td><td><span class="k">G</span></td><td><span class="k">H</span></td><td><span class="k">J</span></td><td><span class="k">K</span></td><td><span class="k">L</span></td><td><span class="k">；</span></td><td><span class="k">’</span></td></tr>
-<tr><td>好</td><td>要</td><td>将</td><td>的</td><td>都</td><td>其</td><td>我</td><td>很</td><td>以</td><td class="yellow">第二候选</td><td class="yellow">第三候选</td></tr>
+<tr><td>好</td><td>要</td><td>将</td><td>的</td><td>都</td><td>其</td><td>我</td><td>很</td><td>以</td><td class="yellow">Tier 2 candidate</td><td class="yellow">Tier 3 candidate</td></tr>
 <tr><td><span class="k">Z</span></td><td><span class="k">X</span></td><td><span class="k">C</span></td><td><span class="k">V</span></td><td><span class="k">B</span></td><td><span class="k">N</span></td><td><span class="k">M</span></td><td><span class="k">，</span></td><td><span class="k">。</span></td><td></td><td></td></tr>
 <tr><td>之</td><td>给</td><td>国</td><td>没</td><td>了</td><td>在</td><td>想</td><td>，</td><td>。</td><td></td><td></td></tr>
 <tr><td colspan="3"></td><td colspan="5" class="hl2"><strong>SPACE</strong></td><td colspan="3"></td></tr>
-<tr><td colspan="3"></td><td colspan="5" class="yellow">第一候选，空格上屏</td><td colspan="3"></td></tr>
+<tr><td colspan="3"></td><td colspan="5" class="yellow">Tier 1 candidate — Space to commit</td><td colspan="3"></td></tr>
 </table></div>
 
-注：一级一简字不再设置其他输入码。
+Note: Tier-1 one-key characters have no other input codes.
 
 <table class="fs-table ex">
   <tr><th colspan="3">我　J_</th></tr>
-  <tr><td>第一码</td><td colspan="2">空格上屏</td></tr>
-  <tr><td>J</td><td colspan="2">空格</td></tr>
-  <tr><td>J码一简字</td><td colspan="2">第一个候选字，按空格上屏</td></tr>
+  <tr><td>1st key</td><td colspan="2">Space to commit</td></tr>
+  <tr><td>J</td><td colspan="2">Space</td></tr>
+  <tr><td>J-key one-key character</td><td colspan="2">First candidate — press Space to commit</td></tr>
   <tr><td style="background:#eef1f5">可　J；</td><td colspan="2" style="background:#eef1f5">看　J’</td></tr>
-  <tr><td>第二候选字上屏</td><td colspan="2">第三候选字上屏</td></tr>
+  <tr><td>Tier-2 candidate commits</td><td colspan="2">Tier-3 candidate commits</td></tr>
 </table>
 
-### 字根字
+### Root Characters
 
-字根字输入规则：第一码为该字所在键位，再加上该字音补，空格上屏。部分字根字存在重码，需输入（；）让第二候选词上屏。
+Root character input rule: the first key is the key where the character sits, plus the character's phonetic supplement, then Space to commit. Some root characters have collisions; type (；) to commit the second candidate.
 
 <div class="table-wrap"><table class="fs-table kbd">
 <tr>
@@ -76,108 +78,108 @@ parent: 首页
 <td><span class="k">B</span><span class="fs-red">子孑</span>了己巳<br>耳巴<span class="fs-red">也已</span></td>
 <td><span class="k">N</span>大犬<br>万月舟</td>
 <td><span class="k">M</span>木<br>贝见页习</td>
-<td colspan="3">注：<span class="fs-red">红色</span>字根为重码。</td>
+<td colspan="3">Note: <span class="fs-red">red</span> radicals are collisions.</td>
 </tr>
 </table></div>
 
 <table class="fs-table ex">
   <tr><th colspan="3">气　RQ_</th></tr>
-  <tr><td>第一码</td><td>音补</td><td>空格上屏</td></tr>
-  <tr><td>气R</td><td>Q</td><td>空格</td></tr>
+  <tr><td>1st key</td><td>Phonetic suppl.</td><td>Space to commit</td></tr>
+  <tr><td>气R</td><td>Q</td><td>Space</td></tr>
 </table>
 
 <table class="fs-table ex">
   <tr><th colspan="3">入　IR；</th></tr>
-  <tr><td>第一码</td><td>音补</td><td>第二候选词上屏</td></tr>
+  <tr><td>1st key</td><td>Phonetic suppl.</td><td>Tier-2 candidate commits</td></tr>
   <tr><td>入I</td><td>R</td><td>；</td></tr>
 </table>
 
-### 普通字
+### Ordinary Characters
 
-不足四码者，以该字的拼音首字母作为补码。超过四码者，第四码为该字末码。
+For characters with fewer than four codes, the first letter of the character's Pinyin serves as the supplement. For characters with more than four codes, the fourth key is the character's final code.
 
 <table class="fs-table ex">
   <tr><th colspan="4">如　AKR_</th></tr>
-  <tr><td>第一码</td><td>第二码</td><td>音补</td><td>空格上屏</td></tr>
-  <tr><td>女A</td><td>口K</td><td>R</td><td>空格</td></tr>
+  <tr><td>1st key</td><td>2nd key</td><td>Phonetic suppl.</td><td>Space to commit</td></tr>
+  <tr><td>女A</td><td>口K</td><td>R</td><td>Space</td></tr>
 </table>
 
 <table class="fs-table ex">
   <tr><th colspan="4">通　PQZT</th></tr>
-  <tr><td>第一码</td><td>第二码</td><td>第三码</td><td>音补</td></tr>
+  <tr><td>1st key</td><td>2nd key</td><td>3rd key</td><td>Phonetic suppl.</td></tr>
   <tr><td>P</td><td>用Q</td><td>辶Z</td><td>T</td></tr>
 </table>
 
 <table class="fs-table ex">
   <tr><th colspan="4">弱　ADAD</th></tr>
-  <tr><td>第一码</td><td>第二码</td><td>第三码</td><td>第四码</td></tr>
+  <tr><td>1st key</td><td>2nd key</td><td>3rd key</td><td>4th key</td></tr>
   <tr><td>弓A</td><td>冫D</td><td>弓A</td><td>冫D</td></tr>
 </table>
 
 <table class="fs-table ex">
   <tr><th colspan="4">微　KESO</th></tr>
-  <tr><td>第一码</td><td>第二码</td><td>第三码</td><td>第四码（末码）</td></tr>
+  <tr><td>1st key</td><td>2nd key</td><td>3rd key</td><td>4th key (final)</td></tr>
   <tr><td>彳K</td><td>山E</td><td>一S</td><td>攵O</td></tr>
 </table>
 
-### 二简字、三简字
+### Two-Key & Three-Key Characters
 
-除了全码只有二码的字根字以及三码字，还有二简字和三简字。二简字和三简字是在全码字上的省略，因此既可以简码上屏，也可以输入全码，随心所欲。
+Besides root characters with only a two-key full code and three-key characters, there are also two-key and three-key simplified characters. Two-key and three-key simplified characters are abbreviations of the full code, so you can commit with either the short code or the full code, as you like.
 
-经统计，共有 1304 个二简字和 6273 个三简字，基本涵盖了全部单字。
+By statistics, there are 1,304 two-key characters and 6,273 three-key characters, covering essentially all single characters.
 
-为了提高单字的输入速度，单字设置有一级简码、二级简码、三级简码，也就是说用户不需要输入全部字码就可以打出单字。比如"是"字有以下四种输入方式，无需任何记忆，输入法自动提示，为用户提供最大的自由度，轻松实现盲打。
+To speed up single-character input, single characters are given tier-1, tier-2, and tier-3 short codes — in other words, the user need not type the full code to produce a character. For example, the character "是" can be typed in the following four ways. No memorization is needed: the input method prompts automatically, giving the user maximum freedom and making touch-typing easy.
 
 <table class="fs-table ex">
   <tr><th colspan="4">是：日一龰S</th></tr>
-  <tr><td>二级一简</td><td>二级二简</td><td>一级三简</td><td>全码</td></tr>
+  <tr><td>1-key, 2nd candidate</td><td>2-key, 2nd candidate</td><td>3-key, 1st candidate</td><td>Full code</td></tr>
   <tr><td>F;/F2</td><td>F;/FS2</td><td>FSE_</td><td>FSES</td></tr>
 </table>
 
-除了单字，另外还有使用频率最高的 33997 个词设置了三简字，因此最大程度上节省了输入码数。
+Besides single characters, the 33,997 most frequently used words are also given three-key codes, saving keystrokes to the greatest extent.
 
-## 双字
+## Two-Character Words
 
-每个字选前两码，若两个字中出现字根字，则该字第二码为音补。
+Take the first two codes of each character. If either character is a root character, its second code is a phonetic supplement.
 
 <table class="fs-table ex">
   <tr><th colspan="4">我们　JLIU</th></tr>
-  <tr><td>第一字第一码</td><td>第一字第二码</td><td>第二字第一码</td><td>第二字第二码</td></tr>
+  <tr><td>1st char, 1st key</td><td>1st char, 2nd key</td><td>2nd char, 1st key</td><td>2nd char, 2nd key</td></tr>
   <tr><td>手J</td><td>戈L</td><td>人I</td><td>门U</td></tr>
 </table>
 
 <table class="fs-table ex">
   <tr><th colspan="4">生气　RSRQ</th></tr>
-  <tr><td>第一码</td><td>音补</td><td>第一码</td><td>音补</td></tr>
+  <tr><td>1st key</td><td>Phonetic suppl.</td><td>1st key</td><td>Phonetic suppl.</td></tr>
   <tr><td>生R</td><td>S</td><td>气R</td><td>Q</td></tr>
 </table>
 
-## 三字
+## Three-Character Words
 
-前两个字选第一码，最后一个字选前两码。
+Take the first code of the first two characters, and the first two codes of the last character.
 
 <table class="fs-table ex">
   <tr><th colspan="4">创作者　IBGF</th></tr>
-  <tr><td>第一字第一码</td><td>第二字第一码</td><td>第三字第一码</td><td>第三字第二码</td></tr>
+  <tr><td>1st char, 1st key</td><td>2nd char, 1st key</td><td>3rd char, 1st key</td><td>3rd char, 2nd key</td></tr>
   <tr><td>人I</td><td>亻I</td><td>耂G</td><td>日F</td></tr>
 </table>
 
-## 四字
+## Four-Character Words
 
-以每个字的第一码作为输入码。
+Use the first code of each character as the input code.
 
 <table class="fs-table ex">
   <tr><th colspan="4">不劳而获　NHAH</th></tr>
-  <tr><td>第一字第一码</td><td>第二字第一码</td><td>第三字第一码</td><td>第四字第一码</td></tr>
+  <tr><td>1st char, 1st key</td><td>2nd char, 1st key</td><td>3rd char, 1st key</td><td>4th char, 1st key</td></tr>
   <tr><td>N</td><td>H</td><td>A</td><td>H</td></tr>
 </table>
 
-## 四字以上
+## More Than Four Characters
 
-以第一、第二、第三字和最末字的第一码作为输入码。
+Use the first code of the first, second, and third characters, and of the last character, as the input code.
 
 <table class="fs-table ex">
   <tr><th colspan="4">做一天和尚撞一天钟　ISYQ</th></tr>
-  <tr><td>第一字第一码</td><td>第二字第一码</td><td>第三字第一码</td><td>最末字第一码</td></tr>
+  <tr><td>1st char, 1st key</td><td>2nd char, 1st key</td><td>3rd char, 1st key</td><td>last char, 1st key</td></tr>
   <tr><td>I</td><td>S</td><td>Y</td><td>Q</td></tr>
 </table>

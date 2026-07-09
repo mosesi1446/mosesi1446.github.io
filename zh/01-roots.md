@@ -3,6 +3,7 @@ title: 风水字根表
 nav_order: 2
 description: 风水形音输入法 26 键字根表 —— 左手"米"字形、右手"人"字形
 permalink: /zh/01-roots/
+parent: 首页
 ---
 
 # 风水字根表

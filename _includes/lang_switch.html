@@ -1,0 +1,20 @@
+{% comment %}
+  语言切换链接：按当前 page.url 自动算对端语言 URL。
+  中文（/ 或 /zh/X） ↔ 英文（/en/ 或 /en/X）
+{% endcomment %}
+{% if page.url contains '/en/' %}
+  {% if page.url == '/en/' %}
+    {% assign switch_url = '/' %}
+  {% else %}
+    {% assign switch_url = page.url | replace: '/en/', '/zh/' %}
+  {% endif %}
+  {% assign switch_label = '中文' %}
+{% else %}
+  {% if page.url == '/' %}
+    {% assign switch_url = '/en/' %}
+  {% else %}
+    {% assign switch_url = page.url | replace: '/zh/', '/en/' %}
+  {% endif %}
+  {% assign switch_label = 'English' %}
+{% endif %}
+<p class="text-right lang-switch"><a href="{{ switch_url | relative_url }}">🌐 {{ switch_label }}</a></p>

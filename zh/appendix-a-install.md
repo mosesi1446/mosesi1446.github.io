@@ -3,6 +3,7 @@ title: 输入法安装
 nav_order: 7
 description: 风水输入法安装教程 —— Rime + 风水方案
 permalink: /zh/appendix-a-install/
+parent: 首页
 ---
 
 # 输入法安装
