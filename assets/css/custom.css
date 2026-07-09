@@ -20,9 +20,9 @@ body {
 
 /* 配色变量（取自 LaTeX 文档类 fengshui.cls）*/
 :root {
-  --fengshui-blue: #003399; /* 宝钢蓝，主色 */
-  --fengshui-gray: #808080; /* 宝钢灰 */
-  --fengshui-red:  #dc143c; /* 宝钢红，强调 */
+  --fengshui-blue: #003399; /* 蓝，主色 */
+  --fengshui-gray: #808080; /* 灰 */
+  --fengshui-red:  #dc143c; /* 红，强调 */
 }
 
 /* 强调色（如 Slogan 中的"风""水"）*/
